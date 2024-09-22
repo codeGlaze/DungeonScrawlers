@@ -73,5 +73,5 @@ kramdown:
   show_warnings     : false
 
 #Theme
-theme: jekyll-theme-merlot
+theme: jekyll-theme-dinky
 #remote_theme: pages-themes/merlot@v0.2.0
