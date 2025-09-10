@@ -23,9 +23,9 @@
       <header class="site-header">
         <div class="header-content">
           <h1 class="site-title">
-            <a href="{{ "/" | relative_url }}" rel="home">{{ site.title | default: site.github.repository_name }}</a>
+            <a href="{{ "/" | relative_url }}" rel="home">{{ site.title | default: "DungeonScrawlers" }}</a>
           </h1>
-          <p class="site-description">{{ site.description | default: site.github.project_tagline }}</p>
+          <p class="site-description">{{ site.description | default: "A fan made site and wiki for the Dungeon Scrawlers Actual Play Series" }}</p>
         </div>
       </header>
 
@@ -37,10 +37,8 @@
 
       <footer class="site-footer">
         <div class="footer-content">
-          <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | default: site.github.repository_name }}. A fan-made site for Dungeon Scrawlers adventures.</p>
-          {% if site.github.is_project_page %}
-            <p><a href="{{ site.github.repository_url }}" class="github-link">View on GitHub</a></p>
-          {% endif %}
+          <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | default: "DungeonScrawlers" }}. A fan-made site for Dungeon Scrawlers adventures.</p>
+          <p><a href="https://github.com/codeGlaze/DungeonScrawlers" class="github-link">View on GitHub</a></p>
         </div>
       </footer>
     </div>

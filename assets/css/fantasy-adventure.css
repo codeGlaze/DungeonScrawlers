@@ -1,16 +1,18 @@
 /* Fantasy Adventure Theme for DungeonScrawlers */
 
 :root {
-  /* Fantasy Color Palette */
+  /* Updated Fantasy Adventure Color Palette - Moving away from heavy purple */
   --primary-gold: #D4AF37;
-  --deep-purple: #2E1065;
-  --mystical-blue: #1E3A8A;
-  --dragon-green: #065F46;
+  --adventure-blue: #1E40AF;
+  --forest-green: #166534;
+  --earth-tan: #A16B47;
   --parchment: #FEF3E2;
-  --dark-stone: #1F2937;
+  --dark-stone: #374151;
   --light-stone: #F9FAFB;
-  --shadow-purple: #4C1D95;
-  --accent-copper: #B45309;
+  --deep-blue: #1E3A8A;
+  --accent-red: #DC2626;
+  --sage-green: #065F46;
+  --warm-tan: #D2B48C;
   
   /* Typography */
   --font-heading: 'Cinzel', serif;
@@ -29,7 +31,7 @@ body {
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
   color: var(--dark-stone);
-  background: linear-gradient(135deg, var(--parchment) 0%, #F3E8D3 100%);
+  background: linear-gradient(135deg, var(--parchment) 0%, var(--warm-tan) 100%);
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -42,15 +44,15 @@ body {
   min-height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 20px rgba(46, 16, 101, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 30px rgba(30, 64, 175, 0.15);
 }
 
 /* Header */
 .site-header {
-  background: linear-gradient(135deg, var(--deep-purple) 0%, var(--shadow-purple) 100%);
+  background: linear-gradient(135deg, var(--adventure-blue) 0%, var(--deep-blue) 100%);
   color: white;
-  padding: 2rem 1rem;
+  padding: 3rem 2rem;
   position: relative;
   overflow: hidden;
 }
@@ -62,7 +64,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4AF37' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4AF37' fill-opacity='0.1'%3E%3Cpath d='M30 20l10 15-10 15-10-15z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
   z-index: 1;
 }
 
@@ -74,7 +76,7 @@ body {
 
 .site-title {
   font-family: var(--font-heading);
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 700;
   margin: 0 0 1rem 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -92,42 +94,138 @@ body {
 }
 
 .site-description {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 0;
-  opacity: 0.9;
+  opacity: 0.95;
   font-style: italic;
 }
 
 /* Main Content */
 .main-content {
   flex: 1;
-  padding: 3rem 1rem;
+  padding: 0;
 }
 
 .content-wrapper {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, var(--parchment) 0%, rgba(255, 255, 255, 0.9) 100%);
+  padding: 3rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(30, 64, 175, 0.1);
+}
+
+.hero-section h1 {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: var(--earth-tan);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+/* Banner Areas for Topics */
+.topic-banner {
+  background: linear-gradient(135deg, var(--forest-green) 0%, var(--sage-green) 100%);
+  color: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.topic-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
+  z-index: 1;
+}
+
+.topic-banner.fantasy {
+  background: linear-gradient(135deg, var(--forest-green) 0%, var(--sage-green) 100%);
+}
+
+.topic-banner.scifi {
+  background: linear-gradient(135deg, var(--adventure-blue) 0%, var(--deep-blue) 100%);
+}
+
+.topic-banner-content {
+  position: relative;
+  z-index: 2;
+}
+
+.topic-banner h2 {
+  color: var(--primary-gold);
+  font-size: 2.2rem;
+  margin: 0 0 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 0;
+}
+
+.topic-banner h2::before {
+  display: none;
+}
+
+.topic-banner .banner-icon {
+  width: 40px;
+  height: 40px;
+  fill: currentColor;
+}
+
+.topic-banner p {
+  font-size: 1.1rem;
+  margin: 0;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+/* Content Sections */
+.content-section {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid var(--primary-gold);
 }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  color: var(--deep-purple);
+  color: var(--dark-stone);
   margin-top: 2rem;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
+  color: var(--adventure-blue);
   border-bottom: 3px solid var(--primary-gold);
   padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
   font-size: 1.8rem;
-  color: var(--mystical-blue);
+  color: var(--adventure-blue);
   position: relative;
   padding-left: 1rem;
 }
@@ -142,14 +240,14 @@ h2::before {
 }
 
 h3 {
-  font-size: 1.4rem;
-  color: var(--dragon-green);
+  font-size: 1.5rem;
+  color: var(--forest-green);
   margin-top: 1.5rem;
 }
 
 h4 {
-  font-size: 1.2rem;
-  color: var(--accent-copper);
+  font-size: 1.3rem;
+  color: var(--earth-tan);
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
@@ -159,6 +257,17 @@ h4 {
 p {
   margin-bottom: 1rem;
   text-align: justify;
+  color: var(--dark-stone);
+}
+
+em {
+  color: var(--earth-tan);
+  font-style: italic;
+}
+
+strong {
+  color: var(--forest-green);
+  font-weight: 600;
 }
 
 ul, ol {
@@ -172,7 +281,7 @@ li {
 
 /* Links */
 a {
-  color: var(--mystical-blue);
+  color: var(--adventure-blue);
   text-decoration: underline;
   text-decoration-color: var(--primary-gold);
   text-underline-offset: 2px;
@@ -180,9 +289,9 @@ a {
 }
 
 a:hover {
-  color: var(--primary-gold);
-  text-decoration-color: var(--mystical-blue);
-  text-shadow: 1px 1px 3px rgba(212, 175, 55, 0.3);
+  color: var(--accent-red);
+  text-decoration-color: var(--adventure-blue);
+  text-shadow: 1px 1px 3px rgba(220, 38, 38, 0.2);
 }
 
 /* Code */
@@ -191,7 +300,7 @@ code {
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
   font-family: 'Courier New', monospace;
-  color: var(--deep-purple);
+  color: var(--adventure-blue);
   border: 1px solid #E5E7EB;
 }
 
@@ -227,7 +336,7 @@ th, td {
 }
 
 th {
-  background: var(--deep-purple);
+  background: var(--adventure-blue);
   color: white;
   font-family: var(--font-heading);
   font-weight: 600;
@@ -283,20 +392,32 @@ blockquote::before {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .site-header {
+    padding: 2rem 1rem;
+  }
+  
   .site-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   
   .site-description {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   
-  .main-content {
+  .topic-banner h2 {
+    font-size: 1.8rem;
+  }
+  
+  .content-wrapper {
+    padding: 1rem;
+  }
+  
+  .hero-section {
     padding: 2rem 1rem;
   }
   
   h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   
   h2 {
@@ -325,8 +446,28 @@ blockquote::before {
     padding: 1.5rem 0.5rem;
   }
   
-  .main-content {
+  .site-title {
+    font-size: 1.8rem;
+  }
+  
+  .hero-section {
     padding: 1.5rem 0.5rem;
+  }
+  
+  .content-wrapper {
+    padding: 1rem 0.5rem;
+  }
+  
+  .topic-banner {
+    margin: 1rem 0;
+    padding: 1.5rem;
+  }
+  
+  .topic-banner h2 {
+    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
   }
   
   h2::before {
