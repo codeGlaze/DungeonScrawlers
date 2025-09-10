@@ -8,10 +8,10 @@
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     
-    <!-- Fantasy Adventure Theme CSS -->
+    <!-- Modern Fantasy Adventure Theme CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/fantasy-adventure.css?v=' | append: site.github.build_revision | relative_url }}">
     
-    <!-- Google Fonts for fantasy feel -->
+    <!-- Google Fonts for modern fantasy feel -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -26,10 +26,13 @@
             <a href="{{ "/" | relative_url }}" rel="home">{{ site.title | default: "DungeonScrawlers" }}</a>
           </h1>
           <p class="site-description">{{ site.description | default: "A fan made site and wiki for the Dungeon Scrawlers Actual Play Series" }}</p>
+          <div class="hero-cta">
+            <a href="#adventures" class="cta-button">Explore Adventures</a>
+          </div>
         </div>
       </header>
 
-      <main class="main-content">
+      <main class="main-content" id="adventures">
         <div class="content-wrapper">
           {{ content }}
         </div>
