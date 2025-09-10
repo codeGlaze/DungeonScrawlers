@@ -891,6 +891,63 @@ blockquote::before {
   th, td {
     padding: var(--space-xs) var(--space-sm);
   }
+  
+  /* Ensure hero title doesn't overflow on very small screens */
+  .hero-title {
+    font-size: clamp(1.75rem, 8vw, 4rem);
+    line-height: 1.1;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  .hero-welcome-content {
+    padding: 0 var(--space-sm);
+  }
+  
+  /* Improve social links on mobile */
+  .social-links {
+    flex-direction: column;
+    gap: var(--space-md);
+    align-items: center;
+  }
+  
+  .social-link {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+    padding: var(--space-sm) var(--space-md);
+  }
+}
+
+/* Extra small screens - ensure no overflow */
+@media (max-width: 320px) {
+  .hero-title {
+    font-size: clamp(1.5rem, 10vw, 2.5rem);
+  }
+  
+  .hero-welcome {
+    margin: 0 calc(-1 * var(--space-xs));
+  }
+  
+  .hero-welcome-content {
+    padding: 0 var(--space-xs);
+  }
+  
+  .social-link {
+    font-size: 1rem;
+    padding: var(--space-xs) var(--space-sm);
+  }
+  
+  .social-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .social-icon svg {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 /* Adventure Ready Section - Inspired by Twitch Banner */
@@ -985,7 +1042,6 @@ blockquote::before {
 }
 
 .social-icon {
-  font-size: 1.5rem;
   width: 40px;
   height: 40px;
   background: rgba(255, 255, 255, 0.2);
@@ -994,6 +1050,13 @@ blockquote::before {
   justify-content: center;
   border-radius: 50%;
   transition: transform 0.3s var(--ease-smooth);
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+  color: var(--pure-white);
+  transition: color 0.3s var(--ease-smooth);
 }
 
 .social-link:hover .social-icon {
