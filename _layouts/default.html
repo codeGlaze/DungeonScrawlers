@@ -8,10 +8,10 @@
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     
-    <!-- Fantasy Adventure Theme CSS -->
+    <!-- Modern Fantasy Adventure Theme CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/fantasy-adventure.css?v=' | append: site.github.build_revision | relative_url }}">
     
-    <!-- Google Fonts for fantasy feel -->
+    <!-- Google Fonts for modern fantasy feel -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -22,14 +22,30 @@
     <div class="page-wrapper">
       <header class="site-header">
         <div class="header-content">
-          <h1 class="site-title">
-            <a href="{{ "/" | relative_url }}" rel="home">{{ site.title | default: site.github.repository_name }}</a>
-          </h1>
-          <p class="site-description">{{ site.description | default: site.github.project_tagline }}</p>
+          <div class="brand-section">
+            <div class="logo-container">
+              <img src="https://github.com/user-attachments/assets/ca2af5ce-e4c1-4465-9727-7be393c452e3" alt="DungeonScrawlers Logo" class="dragon-logo-img">
+              <div class="brand-text">
+                <h1 class="site-title">
+                  <a href="{{ "/" | relative_url }}" rel="home">{{ site.title | default: "DungeonScrawlers" }}</a>
+                </h1>
+                <p class="site-tagline">Actual Play Adventures</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-banner" style="background-image: url('https://github.com/user-attachments/assets/f88fc1e1-1b0d-4d67-b21e-cb3bd1a5c0ae');">
+            <div class="banner-overlay">
+              <h2 class="hero-title">The Adventure Continues</h2>
+              <p class="hero-subtitle">{{ site.description | default: "A fan made site and wiki for the Dungeon Scrawlers Actual Play Series" }}</p>
+              <div class="hero-cta">
+                <a href="#adventures" class="cta-button">Explore Adventures</a>
+              </div>
+            </div>
+          </div>
         </div>
       </header>
 
-      <main class="main-content">
+      <main class="main-content" id="adventures">
         <div class="content-wrapper">
           {{ content }}
         </div>
@@ -37,10 +53,8 @@
 
       <footer class="site-footer">
         <div class="footer-content">
-          <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | default: site.github.repository_name }}. A fan-made site for Dungeon Scrawlers adventures.</p>
-          {% if site.github.is_project_page %}
-            <p><a href="{{ site.github.repository_url }}" class="github-link">View on GitHub</a></p>
-          {% endif %}
+          <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | default: "DungeonScrawlers" }}. A fan-made site for Dungeon Scrawlers adventures.</p>
+          <p><a href="https://github.com/codeGlaze/DungeonScrawlers" class="github-link">View on GitHub</a></p>
         </div>
       </footer>
     </div>

@@ -3,31 +3,104 @@ layout: default
 title: "DungeonScrawlers - Fantasy Adventures"
 ---
 
-# Welcome to DungeonScrawlers
+<div class="hero-welcome">
+  <div class="hero-welcome-content">
+    <h1 class="hero-title">Welcome to DungeonScrawlers</h1>
+    <p class="hero-subtitle">A fan-made site and wiki for the <strong>Dungeon Scrawlers Actual Play Series</strong> streamed on Twitch and YouTube. Join us as we explore magical realms, encounter legendary creatures, and forge epic tales of adventure!</p>
+  </div>
+</div>
 
-A fan made site and wiki for the **Dungeon Scrawlers Actual Play Series** streamed on Twitch and YouTube. Join us as we explore magical realms, encounter legendary creatures, and forge epic tales of adventure!
+<div class="series-section fantasy">
+  <div class="series-header">
+    <div class="series-icon">⚔️</div>
+    <div>
+      <h2 class="series-title">Fantasy Adventures</h2>
+      <p class="series-subtitle">Embark on epic quests through mystical realms</p>
+    </div>
+  </div>
+  
+  <div class="series-content">
+    <div class="promo-space">Fantasy Campaign Artwork</div>
+    
+    <div class="content-grid">
+      <div class="content-card">
+        <div class="card-header">
+          <div class="card-icon">🏰</div>
+          <div>
+            <h3 class="card-title">Westgate Irregulars</h3>
+            <p class="card-subtitle">A tale of unlikely heroes in the bustling city of Westgate</p>
+          </div>
+        </div>
+        <div class="card-content">
+          <p>Step into the shoes of adventurers navigating the political intrigue and dangerous streets of one of Faerûn's most notorious cities.</p>
+          <p>The Westgate Irregulars must balance survival, profit, and perhaps even heroism in this gritty urban campaign.</p>
+        </div>
+      </div>
+      
+      <div class="content-card">
+        <div class="card-header">
+          <div class="card-icon">🌟</div>
+          <div>
+            <h3 class="card-title">Multiverse</h3>
+            <p class="card-subtitle">Where infinite possibilities meet endless adventure</p>
+          </div>
+        </div>
+        <div class="card-content">
+          <p>Explore the boundless realms of the multiverse, where reality bends to imagination and every door leads to a new world of wonder.</p>
+          <p>From celestial planes to shadowy dimensions, no adventure is too grand or too strange.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-## ⚔️ Fantasy Stream Series
+<div class="series-section scifi">
+  <div class="series-header">
+    <div class="series-icon">🚀</div>
+    <div>
+      <h2 class="series-title">Sci-Fi Adventures</h2>
+      <p class="series-subtitle">Journey through the stars and distant galaxies</p>
+    </div>
+  </div>
+  
+  <div class="series-content">
+    <div class="promo-space">Sci-Fi Campaign Artwork</div>
+    
+    <div class="content-grid">
+      <div class="content-card">
+        <div class="card-header">
+          <div class="card-icon">🌌</div>
+          <div>
+            <h3 class="card-title">Star Wars Adventures</h3>
+            <p class="card-subtitle">Experience the galaxy far, far away</p>
+          </div>
+        </div>
+        <div class="card-content">
+          <h4>❄️ SW Frostfall</h4>
+          <p><em>A long time ago, in a galaxy far, far away...</em></p>
+          <p>Experience the Star Wars universe through the eyes of new heroes facing the challenges of a galaxy in turmoil. Set in the rich tapestry of the Star Wars saga, Frostfall brings unique stories of hope, conflict, and the eternal struggle between light and dark.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-### 🏰 Westgate Irregulars
-*A tale of unlikely heroes in the bustling city of Westgate*
-
-Step into the shoes of adventurers navigating the political intrigue and dangerous streets of one of Faerûn's most notorious cities. The Westgate Irregulars must balance survival, profit, and perhaps even heroism in this gritty urban campaign.
-
-### 🌟 Multiverse
-*Where infinite possibilities meet endless adventure*
-
-Explore the boundless realms of the multiverse, where reality bends to imagination and every door leads to a new world of wonder. From celestial planes to shadowy dimensions, no adventure is too grand or too strange.
-
-## 🚀 Sci-Fi Stream Series
-
-### 🌌 Star Wars Adventures
-
-#### ❄️ SW Frostfall
-*A long time ago, in a galaxy far, far away...*
-
-Experience the Star Wars universe through the eyes of new heroes facing the challenges of a galaxy in turmoil. Set in the rich tapestry of the Star Wars saga, Frostfall brings unique stories of hope, conflict, and the eternal struggle between light and dark.
-
----
-
-*Ready to embark on your own adventure? Follow our streams and become part of the DungeonScrawlers community!*
+<div class="adventure-ready-section">
+  <div class="adventure-background">
+    <div class="dragon-dice-pattern"></div>
+    <div class="adventure-content">
+      <h2 class="adventure-title">Ready for Adventure?</h2>
+      <p class="adventure-subtitle">Follow our streams and become part of the DungeonScrawlers community!</p>
+      <div class="social-links">
+        <a href="#" class="social-link twitch">
+          <div class="social-icon">📺</div>
+          <span>Watch on Twitch</span>
+        </a>
+        <a href="#" class="social-link youtube">
+          <div class="social-icon">🎬</div>
+          <span>Subscribe on YouTube</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
