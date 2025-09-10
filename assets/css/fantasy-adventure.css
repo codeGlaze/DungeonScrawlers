@@ -1,0 +1,368 @@
+/* Fantasy Adventure Theme for DungeonScrawlers */
+
+:root {
+  /* Fantasy Color Palette */
+  --primary-gold: #D4AF37;
+  --deep-purple: #2E1065;
+  --mystical-blue: #1E3A8A;
+  --dragon-green: #065F46;
+  --parchment: #FEF3E2;
+  --dark-stone: #1F2937;
+  --light-stone: #F9FAFB;
+  --shadow-purple: #4C1D95;
+  --accent-copper: #B45309;
+  
+  /* Typography */
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Crimson Text', serif;
+  --font-size-base: 18px;
+  --line-height-base: 1.6;
+}
+
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--dark-stone);
+  background: linear-gradient(135deg, var(--parchment) 0%, #F3E8D3 100%);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Page Layout */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20px rgba(46, 16, 101, 0.1);
+}
+
+/* Header */
+.site-header {
+  background: linear-gradient(135deg, var(--deep-purple) 0%, var(--shadow-purple) 100%);
+  color: white;
+  padding: 2rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.site-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4AF37' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+  z-index: 1;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.site-title {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.site-title a {
+  color: var(--primary-gold);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.site-title a:hover {
+  color: #F7E976;
+  text-shadow: 2px 2px 8px rgba(212, 175, 55, 0.8);
+}
+
+.site-description {
+  font-size: 1.2rem;
+  margin: 0;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 3rem 1rem;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--deep-purple);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 3px solid var(--primary-gold);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--mystical-blue);
+  position: relative;
+  padding-left: 1rem;
+}
+
+h2::before {
+  content: '⚔';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--primary-gold);
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: var(--dragon-green);
+  margin-top: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: var(--accent-copper);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* Paragraphs and Lists */
+p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+ul, ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  color: var(--mystical-blue);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-gold);
+  text-underline-offset: 2px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-gold);
+  text-decoration-color: var(--mystical-blue);
+  text-shadow: 1px 1px 3px rgba(212, 175, 55, 0.3);
+}
+
+/* Code */
+code {
+  background: var(--light-stone);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  color: var(--deep-purple);
+  border: 1px solid #E5E7EB;
+}
+
+pre {
+  background: var(--dark-stone);
+  color: var(--light-stone);
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+th {
+  background: var(--deep-purple);
+  color: white;
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background: var(--parchment);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--primary-gold);
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  background: rgba(212, 175, 55, 0.1);
+  font-style: italic;
+  position: relative;
+}
+
+blockquote::before {
+  content: '"';
+  font-size: 3rem;
+  color: var(--primary-gold);
+  position: absolute;
+  top: -0.5rem;
+  left: 0.5rem;
+  opacity: 0.5;
+}
+
+/* Footer */
+.site-footer {
+  background: var(--dark-stone);
+  color: var(--light-stone);
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.github-link {
+  color: var(--primary-gold);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.github-link:hover {
+  color: #F7E976;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .site-title {
+    font-size: 2rem;
+  }
+  
+  .site-description {
+    font-size: 1rem;
+  }
+  
+  .main-content {
+    padding: 2rem 1rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .page-wrapper {
+    box-shadow: none;
+  }
+  
+  table {
+    font-size: 0.9rem;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --font-size-base: 16px;
+  }
+  
+  .site-header {
+    padding: 1.5rem 0.5rem;
+  }
+  
+  .main-content {
+    padding: 1.5rem 0.5rem;
+  }
+  
+  h2::before {
+    position: relative;
+    margin-right: 0.5rem;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus styles */
+a:focus, button:focus {
+  outline: 2px solid var(--primary-gold);
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .site-header, .site-footer {
+    background: none !important;
+    color: black !important;
+  }
+  
+  .page-wrapper {
+    box-shadow: none;
+    background: white;
+  }
+  
+  a {
+    color: black !important;
+  }
+}
