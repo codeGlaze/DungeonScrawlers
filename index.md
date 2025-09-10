@@ -85,10 +85,22 @@ title: "DungeonScrawlers - Fantasy Adventures"
   </div>
 </div>
 
-<div style="text-align: center; padding: var(--space-3xl); margin: var(--space-3xl) 0; background: linear-gradient(135deg, var(--primary-electric) 0%, var(--cosmic-purple) 100%); color: var(--pure-white); position: relative; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml;utf8,<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" fill=\"%23F59E0B\" fill-opacity=\"0.1\"/></svg>') repeat; z-index: 1;"></div>
-  <div style="position: relative; z-index: 2;">
-    <h2 style="font-size: 2rem; margin-bottom: var(--space-md); color: var(--pure-white);">Ready for Adventure?</h2>
-    <p style="font-size: 1.25rem; margin: 0; font-weight: 400;">Follow our streams and become part of the DungeonScrawlers community!</p>
+<div class="adventure-ready-section">
+  <div class="adventure-background">
+    <div class="dragon-dice-pattern"></div>
+    <div class="adventure-content">
+      <h2 class="adventure-title">Ready for Adventure?</h2>
+      <p class="adventure-subtitle">Follow our streams and become part of the DungeonScrawlers community!</p>
+      <div class="social-links">
+        <a href="#" class="social-link twitch">
+          <div class="social-icon">📺</div>
+          <span>Watch on Twitch</span>
+        </a>
+        <a href="#" class="social-link youtube">
+          <div class="social-icon">🎬</div>
+          <span>Subscribe on YouTube</span>
+        </a>
+      </div>
+    </div>
   </div>
 </div>

@@ -81,18 +81,15 @@ body {
   min-height: 100vh;
 }
 
-/* Hero Header with Splash Design */
+/* Brand-Integrated Header Design */
 .site-header {
-  background: linear-gradient(135deg, var(--primary-electric) 0%, var(--cosmic-purple) 100%);
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.95) 0%, rgba(55, 65, 81, 0.95) 100%);
   color: var(--pure-white);
-  padding: var(--space-3xl) var(--space-lg);
   position: relative;
   overflow: hidden;
   min-height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  flex-direction: column;
 }
 
 .site-header::before {
@@ -102,8 +99,140 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 5L90 50L50 95L10 50Z' fill='%23F59E0B' fill-opacity='0.1'/%3E%3C/svg%3E") repeat;
+  background: url('assets/images/group-banner.jpg') center/cover no-repeat;
+  background-image: 
+    linear-gradient(135deg, rgba(17, 24, 39, 0.7) 0%, rgba(55, 65, 81, 0.7) 100%),
+    url('data:image/svg+xml;utf8,<svg viewBox="0 0 1400 500" xmlns="http://www.w3.org/2000/svg"><rect width="1400" height="500" fill="%23374151"/><text x="700" y="250" text-anchor="middle" fill="%23D1D5DB" font-size="24" font-family="serif">Group Photo Will Display Here</text><circle cx="200" cy="100" r="30" fill="%23EF4444" opacity="0.3"/><circle cx="1200" cy="400" r="40" fill="%236366F1" opacity="0.3"/><path d="M100 150 Q200 100, 300 150 T500 150" stroke="%23F59E0B" stroke-width="3" fill="none" opacity="0.5"/></svg>');
   z-index: 1;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Brand Section - Logo and Title */
+.brand-section {
+  padding: var(--space-lg);
+  background: rgba(17, 24, 39, 0.9);
+  border-bottom: 2px solid var(--accent-gold);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dragon-logo {
+  width: 80px;
+  height: 80px;
+  background: var(--pure-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s var(--ease-smooth);
+}
+
+.dragon-logo:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.dragon-svg {
+  width: 50px;
+  height: 50px;
+}
+
+.brand-text {
+  text-align: center;
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  letter-spacing: -0.02em;
+}
+
+.site-title a {
+  color: var(--pure-white);
+  text-decoration: none;
+  transition: all 0.3s var(--ease-smooth);
+  display: inline-block;
+}
+
+.site-title a:hover {
+  color: var(--accent-gold);
+  text-shadow: 0 6px 24px rgba(245, 158, 11, 0.4);
+}
+
+.site-tagline {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--accent-gold);
+  margin: var(--space-xs) 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Hero Banner Section */
+.hero-banner {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-3xl) var(--space-lg);
+  position: relative;
+}
+
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='40,5 75,35 40,75 5,35' fill='%23F59E0B' fill-opacity='0.08'/%3E%3Cpolygon points='20,20 60,20 60,60 20,60' fill='%23EF4444' fill-opacity='0.05'/%3E%3C/svg%3E") repeat;
+  z-index: 1;
+}
+
+.banner-overlay {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0 0 var(--space-md) 0;
+  text-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+  color: var(--accent-gold);
+}
+
+.hero-subtitle {
+  font-family: var(--font-body);
+  font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+  line-height: 1.6;
+  color: var(--pure-white);
+  margin: 0 0 var(--space-xl) 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .site-header::after {
@@ -112,53 +241,13 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 120px;
+  height: 80px;
   background: var(--pure-white);
   clip-path: polygon(0 100%, 100% 100%, 100% 0);
   z-index: 3;
 }
 
-.header-content {
-  position: relative;
-  z-index: 2;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.site-title {
-  font-family: var(--font-display);
-  font-size: clamp(3rem, 8vw, 7rem);
-  font-weight: 700;
-  line-height: 0.9;
-  margin: 0 0 var(--space-lg) 0;
-  text-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  letter-spacing: -0.02em;
-}
-
-.site-title a {
-  color: var(--pure-white);
-  text-decoration: none;
-  transition: all 0.4s var(--ease-smooth);
-  display: inline-block;
-}
-
-.site-title a:hover {
-  transform: scale(1.05);
-  color: var(--accent-gold);
-  text-shadow: 0 12px 48px rgba(245, 158, 11, 0.4);
-}
-
-.site-description {
-  font-family: var(--font-body);
-  font-size: clamp(1.125rem, 2.5vw, 1.5rem);
-  line-height: 1.6;
-  margin: 0;
-  opacity: 0.95;
-  font-weight: 400;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
+/* CTA Button Styling */
 .hero-cta {
   margin-top: var(--space-xl);
 }
@@ -178,12 +267,31 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='2,2 18,10 2,18 6,10' fill='%23FFFFFF' fill-opacity='0.3'/%3E%3C/svg%3E");
+  transform: translateY(-50%);
+  transition: left 0.3s var(--ease-smooth);
 }
 
 .cta-button:hover {
   background: var(--accent-gold-dark);
   transform: translateY(-2px);
   box-shadow: var(--shadow-xl);
+  padding-left: calc(var(--space-xl) + 1rem);
+}
+
+.cta-button:hover::before {
+  left: var(--space-md);
 }
 
 /* Main Content */
@@ -250,6 +358,30 @@ body {
   justify-content: center;
   font-size: 1.5rem;
   color: var(--pure-white);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s var(--ease-smooth);
+}
+
+.card-icon:hover {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-lg);
+}
+
+.card-icon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 4 L16 10 L4 16 L8 10 Z' fill='%23FFFFFF' fill-opacity='0.2'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
+  z-index: 0;
 }
 
 .card-title {
@@ -320,34 +452,35 @@ body {
   line-height: 1.6;
 }
 
-/* Stream Series Sections with SVG Elements */
+/* Stream Series Sections with Dragon/Dice Motifs */
 .series-section {
   margin: var(--space-3xl) 0;
   padding: var(--space-3xl);
   background: var(--pure-white);
   position: relative;
   overflow: hidden;
+  border-left: 6px solid var(--accent-gold);
 }
 
 .series-section::before {
   content: '';
   position: absolute;
   top: 0;
-  right: -100px;
-  width: 300px;
+  right: -50px;
+  width: 200px;
   height: 100%;
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M100 20L180 100L100 180L20 100Z' fill='%23F3F4F6' stroke='%236366F1' stroke-width='2'/%3E%3C/svg%3E") no-repeat center;
-  background-size: contain;
-  opacity: 0.1;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23EF4444' fill-opacity='0.08'%3E%3Cpath d='M50 10 C60 15, 70 25, 75 35 C80 45, 75 55, 70 65 C65 75, 55 85, 45 85 C35 85, 25 75, 20 65 C15 55, 10 45, 15 35 C20 25, 30 15, 40 10 C45 8, 50 10, 50 10 Z'/%3E%3C/g%3E%3Cg fill='%236366F1' fill-opacity='0.06'%3E%3Cpath d='M20 20 L30 20 L35 30 L30 40 L20 40 L15 30 Z'/%3E%3Cpath d='M70 60 L80 60 L85 70 L80 80 L70 80 L65 70 Z'/%3E%3C/g%3E%3C/svg%3E") repeat-y;
   z-index: 1;
 }
 
 .series-section.fantasy::before {
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M100 20L160 80L100 140L40 80Z' fill='%2310B981' fill-opacity='0.1'/%3E%3Cpath d='M100 60L140 100L100 140L60 100Z' fill='%2310B981' fill-opacity='0.2'/%3E%3C/svg%3E") no-repeat center;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2310B981' fill-opacity='0.08'%3E%3Cpath d='M50 5 C65 10, 75 25, 80 40 C85 55, 75 70, 65 80 C55 90, 45 90, 35 80 C25 70, 15 55, 20 40 C25 25, 35 10, 50 5 Z'/%3E%3C/g%3E%3Cg fill='%23F59E0B' fill-opacity='0.05'%3E%3Cpath d='M15 15 L25 20 L30 30 L25 40 L15 35 L10 25 Z'/%3E%3Cpath d='M75 65 L85 70 L90 80 L85 90 L75 85 L70 75 Z'/%3E%3C/g%3E%3C/svg%3E") repeat-y;
+  border-left-color: var(--forest-emerald);
 }
 
 .series-section.scifi::before {
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='100' cy='100' r='80' fill='%238B5CF6' fill-opacity='0.1'/%3E%3Ccircle cx='100' cy='100' r='40' fill='%238B5CF6' fill-opacity='0.2'/%3E%3C/svg%3E") no-repeat center;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%238B5CF6' fill-opacity='0.08'%3E%3Cpath d='M50 8 C62 12, 72 22, 78 35 C84 48, 78 62, 68 72 C58 82, 42 82, 32 72 C22 62, 16 48, 22 35 C28 22, 38 12, 50 8 Z'/%3E%3C/g%3E%3Cg fill='%2306B6D4' fill-opacity='0.06'%3E%3Ccircle cx='20' cy='25' r='8'/%3E%3Ccircle cx='80' cy='75' r='6'/%3E%3Cpath d='M60 20 L70 25 L65 35 L55 30 Z'/%3E%3C/g%3E%3C/svg%3E") repeat-y;
+  border-left-color: var(--cosmic-purple);
 }
 
 .series-header {
@@ -362,7 +495,7 @@ body {
 .series-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, var(--primary-electric), var(--cosmic-purple));
+  background: linear-gradient(135deg, var(--crimson-red), var(--accent-gold));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -370,6 +503,21 @@ body {
   font-size: 2rem;
   position: relative;
   overflow: hidden;
+  border-radius: 50%;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s var(--ease-smooth);
+}
+
+.series-icon:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.series-section.fantasy .series-icon {
+  background: linear-gradient(135deg, var(--forest-emerald), var(--accent-gold));
+}
+
+.series-section.scifi .series-icon {
+  background: linear-gradient(135deg, var(--cosmic-purple), var(--primary-electric));
 }
 
 .series-icon::before {
@@ -379,9 +527,24 @@ body {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.2), transparent);
   transform: rotate(45deg);
-  animation: shimmer 2s ease-in-out infinite;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+.series-icon::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 60%;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 50 50' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 5 C35 8, 40 18, 42 25 C44 32, 40 38, 35 42 C30 46, 20 46, 15 42 C10 38, 6 32, 8 25 C10 18, 15 8, 25 5 Z' fill='%23FFFFFF' fill-opacity='0.3'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 @keyframes shimmer {
@@ -728,6 +891,113 @@ blockquote::before {
   th, td {
     padding: var(--space-xs) var(--space-sm);
   }
+}
+
+/* Adventure Ready Section - Inspired by Twitch Banner */
+.adventure-ready-section {
+  margin: var(--space-3xl) 0;
+  position: relative;
+}
+
+.adventure-background {
+  background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 50%, #DC2626 100%);
+  color: var(--pure-white);
+  padding: var(--space-3xl);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.dragon-dice-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23FFFFFF' fill-opacity='0.1'%3E%3Cpath d='M30 10 C40 15, 50 25, 55 35 C60 45, 55 55, 50 65 C45 75, 35 85, 25 85 C15 85, 5 75, 0 65 C-5 55, -10 45, -5 35 C0 25, 10 15, 20 10 C25 8, 30 10, 30 10 Z'/%3E%3Cpath d='M90 40 C100 45, 110 55, 115 65 C120 75, 115 85, 110 95 C105 105, 95 115, 85 115 C75 115, 65 105, 60 95 C55 85, 50 75, 55 65 C60 55, 70 45, 80 40 C85 38, 90 40, 90 40 Z'/%3E%3C/g%3E%3Cg fill='%23F59E0B' fill-opacity='0.15'%3E%3Cpath d='M70 15 L80 20 L85 30 L80 40 L70 35 L65 25 Z'/%3E%3Cpath d='M15 75 L25 80 L30 90 L25 100 L15 95 L10 85 Z'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  z-index: 1;
+}
+
+.adventure-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.adventure-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 var(--space-md) 0;
+  text-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+  color: var(--pure-white);
+}
+
+.adventure-subtitle {
+  font-family: var(--font-body);
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  line-height: 1.6;
+  margin: 0 0 var(--space-xl) 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0.95;
+}
+
+.social-links {
+  display: flex;
+  gap: var(--space-lg);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: var(--space-md) var(--space-lg);
+  text-decoration: none;
+  color: var(--pure-white);
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 1.125rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s var(--ease-smooth);
+  position: relative;
+  overflow: hidden;
+}
+
+.social-link:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border-color: var(--accent-gold);
+}
+
+.social-link.twitch:hover {
+  background: rgba(169, 112, 255, 0.3);
+}
+
+.social-link.youtube:hover {
+  background: rgba(255, 0, 0, 0.3);
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s var(--ease-smooth);
+}
+
+.social-link:hover .social-icon {
+  transform: scale(1.2) rotate(5deg);
 }
 
 /* Accessibility and Motion */
