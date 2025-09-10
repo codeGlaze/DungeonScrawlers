@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    
+    <!-- Fantasy Adventure Theme CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/fantasy-adventure.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+    <!-- Google Fonts for fantasy feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    {% seo %}
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="site-header">
+        <div class="header-content">
+          <h1 class="site-title">
+            <a href="{{ "/" | relative_url }}" rel="home">{{ site.title | default: site.github.repository_name }}</a>
+          </h1>
+          <p class="site-description">{{ site.description | default: site.github.project_tagline }}</p>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <div class="content-wrapper">
+          {{ content }}
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-content">
+          <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | default: site.github.repository_name }}. A fan-made site for Dungeon Scrawlers adventures.</p>
+          {% if site.github.is_project_page %}
+            <p><a href="{{ site.github.repository_url }}" class="github-link">View on GitHub</a></p>
+          {% endif %}
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -32,6 +32,7 @@ whitelist           : []
 #plugins             : [ "jekyll-remote-theme" ]
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Conversion
 markdown            : kramdown
@@ -72,6 +73,12 @@ kramdown:
   footnote_nr       : 1
   show_warnings     : false
 
-#Theme
-theme: jekyll-theme-dinky
+#Theme - Using custom fantasy adventure theme
+#theme: jekyll-theme-dinky
 #remote_theme: pages-themes/merlot@v0.2.0
+
+# Site settings
+title: "DungeonScrawlers"
+description: "A fan made site and wiki for the Dungeon Scrawlers Actual Play Series streamed on twitch and youtube"
+url: "https://codeglaze.github.io"
+baseurl: "/DungeonScrawlers"
