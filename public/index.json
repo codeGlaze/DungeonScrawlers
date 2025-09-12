@@ -1,0 +1,357 @@
+{
+  "generated_at": "2025-09-12T05:14:51.169Z",
+  "count": 7,
+  "items": [
+    {
+      "title": "Tatooine Gambit",
+      "slug": "smugglers-run-ep01",
+      "date": "2024-01-25",
+      "description": "The crew of the Stardancer takes on what seems like a simple cargo run to Tatooine, but quickly finds themselves caught between Imperial forces and local criminal elements.",
+      "series": "Smuggler's Run",
+      "episode": 1,
+      "systems": [
+        {
+          "canonical": "sw5e",
+          "display": "Star Wars 5e"
+        }
+      ],
+      "setting": {
+        "canonical": "star_wars",
+        "display": "Star Wars"
+      },
+      "era": "Galactic Civil War (2 ABY)",
+      "players": [
+        "Iris (Kira)",
+        "Jake (Zeph)",
+        "Kelly (Jorik)",
+        "Louis (B4-NK)"
+      ],
+      "duration": "4h 45m",
+      "media": [
+        "audio",
+        "video"
+      ],
+      "tags": [
+        "smuggling",
+        "tatooine",
+        "imperial",
+        "cantina",
+        "space combat"
+      ],
+      "genres": [],
+      "content_warnings": [
+        "violence",
+        "alcohol use"
+      ],
+      "languages": [
+        "English"
+      ],
+      "aliases": [
+        "tatooine gambit",
+        "smugglers episode 1",
+        "stardancer crew"
+      ],
+      "content_excerpt": "Tatooine Gambit\nEpisode Summary\nThe crew of the modified YT-1300 light freighter Stardancer is laying low on Ryloth when they receive word of a lucrative cargo job through their Twi'lek contacts....",
+      "file_path": "content/actual-plays/star-wars/smugglers-run-ep01.md",
+      "search_text": "tatooine gambit the crew of the stardancer takes on what seems like a simple cargo run to tatooine, but quickly finds themselves caught between imperial forces and local criminal elements. smuggler's run smuggling tatooine imperial cantina space combat star wars 5e star wars \n# tatooine gambit\n\n## episode summary\n\nthe crew of the modified yt-1300 light freighter *stardancer* is laying low on ryloth when they receive word of a lucrative cargo job through their twi'lek contacts. a simple run to tatooine carrying \"agricultural supplies\" for a substantial payday - what could go wrong?\n\neverything, as it turns out. what begins as routine smuggling quickly escalates when the cargo turns out to be more than advertised, imperial forces are tracking the shipment, and the drop-off location in mos eisley cantina becomes the center of a three-way confrontation between the crew, bounty hunters, and imperial intelligence.\n\n## key events\n\n- **the job offer**: vorn'ia jess offers the crew 15,000 credits for a \"no questions asked\" cargo run\n- **hyperspace complications**: imperial interdictor cruiser forces premature exit from hyperspace  \n- **tatooine arrival**: evasive maneuvers and false transponder codes get them past orbital patrol\n- **cargo discovery**: b4-nk's scans reveal the \"agricultural supplies\" are actually rare minerals and encrypted data cores\n- **cantina confrontation**: the buyer doesn't show, but imperial intelligence and bounty hunters do\n- **chase through mos eisley**: high-speed pursuit through the streets on stolen speederbikes\n- **cliffhanger**: escape to orbit, but the crew now has a price on their heads\n\n## characters\n\n### player characters\n\n- **kira synn** (iris) - human scoundrel and captain of the *stardancer*, former imperial academy washout with a talent for talking her way out of trouble\n- **zeph'ani'salo \"zeph\" ** (jake) - twi'lek pilot with force sensitivity he keeps hidden, the ship's primary pilot and mechanic\n- **jorik thorne** (kelly) - human guardian and the crew's muscle, ex-republic commando with strong anti-imperial sentiment  \n- **b4-nk \"bank\"** (louis) - modified protocol/scholar droid with a dry sense of humor and encyclopedic knowledge\n\n### npcs\n\n- **vorn'ia jess** - twi'lek information broker who provided the job\n- **agent kallus** - imperial intelligence operative tracking the stolen data\n- **gorax the finder** - trandoshan bounty hunter working for the hutt cartel\n- **wuher** - mos eisley cantina bartender who becomes an unexpected ally\n\n## locations\n\n### ryloth underground\nthe starting location where the crew operates out of hidden bases in the cavern networks beneath ryloth's surface. twi'lek resistance contacts provide jobs and safe harbor.\n\n### imperial interdictor *subjugator*\nthe massive imperial vessel that forced them out of hyperspace, featuring gravity well projectors and a full complement of tie fighters. the crew managed to avoid direct confrontation through clever navigation.\n\n### tatooine orbit & atmosphere\ndesert world patrol patterns and the challenge of slipping past imperial checkpoints using false identification and sensor jammers.\n\n### mos eisley spaceport\nthe infamous \"wretched hive of scum and villainy\" where the deal was supposed to go down. the crew learned why smugglers prefer this port - local authorities look the other way for the right price.\n\n### mos eisley cantina\nthe legendary watering hole became a battleground when multiple factions converged on the crew simultaneously. the diverse alien clientele provided both cover and complications.\n\n## combat encounters\n\n### imperial intelligence ambush (cr 6)\n**location**: mos eisley cantina  \n**participants**: agent kallus + 4 imperial troopers  \n**tactics**: attempted to take the crew alive for interrogation  \n**resolution**: wuher's \"accidental\" power outage allowed the crew to escape in the confusion\n\n### bounty hunter pursuit (cr 4)  \n**location**: mos eisley streets  \n**participants**: gorax + 2 rodian hunters on speederbikes  \n**tactics**: high-speed chase through narrow alleyways and market squares  \n**resolution**: jorik's well-placed thermal detonator ended the pursuit dramatically\n\n### tie fighter intercept (cr 8)\n**location**: tatooine orbital space  \n**participants**: 2 tie/ln fighters from orbital patrol  \n**tactics**: standard imperial intercept protocol  \n**resolution**: zeph's piloting and the ship's hidden weapons got them to hyperspace\n\n## character development & roleplay\n\n### kira's leadership test\niris played kira's growing confidence as a captain beautifully, showing how she's learning to balance crew safety with profit opportunities.\n\n### zeph's force sensitivity\njake subtly hinted at zeph's force abilities through \"lucky\" piloting moments and intuitive navigation choices, building mystery for future reveals.\n\n### jorik's imperial hatred\nkelly used combat encounters to showcase jorik's visceral reaction to imperial forces, hinting at traumatic past experiences with the empire.\n\n### b4-nk's analytical nature\nlouis played bank's droid logic perfectly, providing crucial technical analysis while occasionally missing emotional nuances in hilarious ways.\n\n## sw5e mechanics spotlight\n\n### smuggling checks\nmultiple skill challenges involving piloting, technology, and deception to avoid imperial detection and customs inspection.\n\n### force powers (subtle use)\nzeph used low-level force abilities like *guidance* and *enhanced reflexes* without revealing their nature to other characters.\n\n### equipment & modifications\nthe *stardancer's* hidden compartments, upgraded hyperdrive, and concealed weapons proved crucial throughout the adventure.\n\n### social encounters\nextended use of persuasion, deception, and intimidation during cantina negotiations and imperial encounters.\n\n## notable moments\n\n- b4-nk's deadpan delivery of \"i believe the correct phrase is 'we're kriffed'\" broke the tension perfectly\n- kira's bluff that they were delivering \"bantha fodder enrichment supplements\" almost worked on the imperial patrol\n- zeph's impossible banking maneuver through the narrow canyon (\"i've flown worse routes on ryloth!\")\n- jorik's intimidation of the cantina crowd: \"anyone else want to discuss politics?\"\n\n## galactic context\n\n### the galactic civil war\nset two years after the battle of yavin, the empire is still strong but showing cracks. rebel activity is increasing, and independent operators like our crew find opportunities in the chaos.\n\n### imperial intelligence operations\nagent kallus represents the empire's more subtle approach to controlling dissent - tracking information rather than planets, following data rather than fleets.\n\n### outer rim economics\nthe episode showcased how the war economy creates opportunities for smugglers, with high-value cargo commanding premium prices despite the risks.\n\n## consequences & hooks\n\n### imperial interest\nagent kallus now has files on the crew and will be tracking their activities. their ship's transponder codes are compromised.\n\n### criminal connections  \nsuccess in completing the run (eventually) has earned them a reputation with twi'lek resistance networks and potential future jobs.\n\n### the missing data\nthe encrypted cores they carried contained intelligence about imperial fleet movements - someone very powerful wants that information back.\n\n### local heat\nmos eisley's criminal underworld now knows about the crew, for better and worse. gorax the finder survived and holds a grudge.\n\n## next session teasers\n\nthe crew needs to lay low while heat dies down, but vorn'ia has another job opportunity - this one involving a mysterious passenger who needs transport to the core worlds. meanwhile, imperial intelligence is offering a substantial bounty for information about the *stardancer* and her crew.\n\nthe question becomes: in a galaxy at war, can independent operators stay truly neutral, or will they be forced to choose sides?\n\n## media links\n\n- [audio version](https://example.com/audio/smugglers-run-ep1) - full session with sound effects\n- [video stream](https://example.com/video/smugglers-run-ep1) - live play with digital battle maps  \n- [character sheets](https://example.com/sheets/stardancer-crew) - sw5e character builds and ship stats\n- [galactic map](https://example.com/maps/outer-rim-route) - hyperspace route and system information\n- [episode soundtrack](https://example.com/music/tatooine-gambit) - custom music and ambient sound playlist"
+    },
+    {
+      "title": "Ruins of the Vault",
+      "slug": "golarion-ruins-ep01",
+      "date": "2024-01-20",
+      "description": "The Ruins & Relics Expedition uncovers a hidden Thassilonian vault beneath the Varisian wilderness, revealing ancient secrets and deadly guardians.",
+      "series": "Ruins & Relics Expedition",
+      "episode": 1,
+      "systems": [
+        {
+          "canonical": "pathfinder",
+          "display": "Pathfinder"
+        }
+      ],
+      "setting": {
+        "canonical": "golarion",
+        "display": "Golarion"
+      },
+      "era": "Age of Lost Omens",
+      "players": [
+        "Emma (Valdris)",
+        "Frank (Seelah)",
+        "Grace (Merisiel)",
+        "Henry (Ezren)"
+      ],
+      "duration": "5h 30m",
+      "media": [
+        "audio",
+        "video"
+      ],
+      "tags": [
+        "exploration",
+        "thassilon",
+        "ancient magic",
+        "archaeology"
+      ],
+      "genres": [],
+      "content_warnings": [
+        "undead",
+        "body horror"
+      ],
+      "languages": [
+        "English"
+      ],
+      "aliases": [
+        "ruins vault",
+        "thassilon episode 1"
+      ],
+      "content_excerpt": "Ruins of the Vault\nEpisode Summary\nThe Ruins & Relics Archaeological Expedition, sponsored by the Pathfinder Society, has been investigating pre-Earthfall sites across Varisia....",
+      "file_path": "content/actual-plays/golarion/golarion-ruins-ep01.md",
+      "search_text": "ruins of the vault the ruins & relics expedition uncovers a hidden thassilonian vault beneath the varisian wilderness, revealing ancient secrets and deadly guardians. ruins & relics expedition exploration thassilon ancient magic archaeology pathfinder golarion \n# ruins of the vault\n\n## episode summary\n\nthe ruins & relics archaeological expedition, sponsored by the pathfinder society, has been investigating pre-earthfall sites across varisia. led by veteran archaeologist professor aldara vinthen, the team has discovered what appears to be an intact thassilonian vault hidden beneath a seemingly mundane hillock near sandpoint.\n\nwhat begins as a routine archaeological dig quickly becomes a dangerous delve into ancient magic when the team awakens the vault's dormant guardians and discovers that some thassilonian secrets were buried for very good reasons.\n\n## key events\n\n- **the discovery**: ground-penetrating divination reveals a massive structure beneath the hill\n- **breaking the seal**: ancient thassilonian wards are carefully dismantled by valdris\n- **the guardian awakens**: a preserved thassilonian mage construct challenges the intruders\n- **vault exploration**: the team maps the first level of a multi-story magical laboratory\n- **the sinspawn encounter**: evidence of sinful magic experimentation becomes terrifyingly real\n- **session climax**: discovery of a functional runeforge still connected to ancient power sources\n\n## characters\n\n### player characters\n\n- **valdris khorwyn** (emma) - human universalist wizard, expert in ancient languages and magical theory\n- **seelah of iomedae** (frank) - human paladin, providing both divine protection and moral guidance to the expedition\n- **merisiel sillvyr** (grace) - elf rogue, the expedition's trap specialist and scout\n- **ezren zefiir** (henry) - human fighter (formerly wizard), expedition security and backup spellcaster\n\n### npcs\n\n- **professor aldara vinthen** - expedition leader and thassilonian expert\n- **koriah azmeren** - pathfinder society venture-captain overseeing the dig\n- **brodert quink** - local thassilonian scholar from sandpoint\n\n## locations explored\n\n### the vault entrance\na magically concealed portal built into living stone, featuring intricate thassilonian runes that pulse with residual magical energy. the entrance required both arcane knowledge and precise ritual work to open safely.\n\n### hall of mirrors\nthe first chamber beyond the seal, lined with perfectly preserved scrying mirrors that show distorted reflections of the viewers. valdris determined these were used for divination magic and possibly communication between thassilonian cities.\n\n### the construct guardian chamber\na circular room dominated by a massive stone guardian bearing the seven-pointed star of thassilon. the construct challenged intruders in perfect ancient thassilonian before engaging in combat.\n\n### laboratory levels\nmulti-tiered magical workshops filled with alchemical apparatus, spell components, and research notes written in ancient script. evidence suggests this was a research facility for the runelords' magical experiments.\n\n## combat encounters\n\n### thassilonian guardian construct (cr 7)\n**location**: guardian chamber  \n**abilities**: spell resistance, immunity to most magic, powerful slam attacks  \n**tactics**: opened with *dispel magic* before closing to melee range  \n**resolution**: defeated through coordinated attacks exploiting its limited mobility\n\n### sinspawn swarm (cr 4)\n**location**: lower laboratory  \n**abilities**: fast healing, sin-based magical abilities tied to wrath  \n**tactics**: attempted to separate party members and focus fire  \n**resolution**: seelah's divine channeling proved crucial in the victory\n\n## discoveries & lore\n\n### ancient research notes\nvaldris translated several key documents revealing this vault was dedicated to research into \"sin magic\" - the manipulation of mortal emotions and desires for arcane power.\n\n### thassilonian runic arrays\nthe vault contains several intact examples of thassilonian magical theory in practice, including:\n- permanent *teleportation circles* linking to other research sites\n- embedded *continual flame* spells providing eternal illumination\n- preservation fields that have kept organic materials intact for millennia\n\n### the runeforge connection\nmost significantly, the party discovered that this vault contains a functioning connection to one of the legendary thassilonian runeforges - workshops capable of creating incredibly powerful magical items.\n\n## character development\n\n### valdris' academic triumph\nemma played valdris' excitement at making genuine archaeological discoveries beautifully, showing both scholarly enthusiasm and growing concern about the ethical implications of thassilonian magic.\n\n### seelah's moral compass\nfrank used seelah's paladin abilities and beliefs to provide important ethical guidance when the party debated whether to continue exploring or seal the vault permanently.\n\n### merisiel's professional pride\ngrace showcased merisiel's expertise in trap detection and disarmament, with several crucial moments where her skills saved the party from ancient magical traps.\n\n### ezren's redemption arc\nhenry continued developing ezren's backstory as a former wizard seeking to prove himself worthy of respect through martial prowess rather than magical power.\n\n## pathfinder mechanics spotlight\n\n### knowledge skills\nmultiple knowledge checks were crucial for understanding thassilonian culture, magical theory, and the historical significance of discoveries.\n\n### spellcraft and magical research\nthe session featured extensive use of *detect magic*, *comprehend languages*, and *spellcraft* checks to safely navigate the vault's magical defenses.\n\n### teamwork and tactics\ncombat encounters required careful coordination between divine magic, arcane spells, martial prowess, and roguish skills.\n\n## notable moments\n\n- valdris' successful translation of the guardian's challenge led to a tense negotiation attempt\n- seelah's detect evil revealed the true horrific nature of the sinspawn before they attacked\n- merisiel's critical success on disabling the runeforge's security system\n- ezren's tactical leadership during the sinspawn encounter showcased his military background\n\n## discoveries for future sessions\n\n### the deeper levels\nground-penetrating spells suggest at least three more levels beneath the current exploration area.\n\n### the active runeforge\nthe functioning runeforge represents both incredible opportunity and extreme danger - it's still connected to whatever power source the runelords used.\n\n### ongoing magical activity\ndivination magic detected active spells and possibly living beings in the unexplored areas.\n\n### the pathfinder society's interest\nventure-captain koriah's intense interest in the discoveries suggests the society has specific knowledge about what might be found here.\n\n## next session hooks\n\nthe party faces a crucial decision: continue exploring the dangerous vault for archaeological knowledge and potential magical treasures, or seal it permanently to prevent the ancient evils within from escaping. meanwhile, strange dreams have begun plaguing some party members, and local wildlife near the dig site has started behaving erratically.\n\n## media links\n\n- [audio version](https://example.com/audio/golarion-ruins-ep1) - complete 5.5 hour session\n- [video stream](https://example.com/video/golarion-ruins-ep1) - live play with battle maps\n- [character sheets](https://example.com/sheets/ruins-relics-team) - updated character information\n- [handouts](https://example.com/handouts/thassilonian-vault) - player handouts and maps"
+    },
+    {
+      "title": "The Burnt Halls",
+      "slug": "fr-delve-ep1-burnt-halls",
+      "date": "2024-01-15",
+      "description": "The party investigates the mysterious fires plaguing an ancient dwarven stronghold beneath the Sword Mountains.",
+      "series": "Delvers of the Deep",
+      "episode": 1,
+      "systems": [
+        {
+          "canonical": "dandd-5e",
+          "display": "D&D 5e"
+        }
+      ],
+      "setting": {
+        "canonical": "forgotten_realms",
+        "display": "Forgotten Realms"
+      },
+      "era": "1492 DR",
+      "players": [
+        "Alice (Kael)",
+        "Bob (Lyra)",
+        "Charlie (Thorin)",
+        "Diana (Zara)"
+      ],
+      "duration": "4h 15m",
+      "media": [
+        "audio",
+        "video"
+      ],
+      "tags": [
+        "dungeon crawl",
+        "mystery",
+        "fire elementals",
+        "dwarven ruins"
+      ],
+      "genres": [
+        {
+          "canonical": "mystery",
+          "display": "Mystery"
+        }
+      ],
+      "content_warnings": [
+        "violence",
+        "mild language"
+      ],
+      "languages": [
+        "English"
+      ],
+      "aliases": [
+        "burnt halls",
+        "delvers episode 1"
+      ],
+      "content_excerpt": "The Burnt Halls\nEpisode Summary\nThe adventuring party known as the Delvers of the Deep receives word of strange fires erupting from the ruins of Khaz Ankor, an ancient dwarven stronghold buried...",
+      "file_path": "content/actual-plays/forgotten-realms/fr-delve-ep1-burnt-halls.md",
+      "search_text": "the burnt halls the party investigates the mysterious fires plaguing an ancient dwarven stronghold beneath the sword mountains. delvers of the deep dungeon crawl mystery fire elementals dwarven ruins d&d 5e forgotten realms \n# the burnt halls\n\n## episode summary\n\nthe adventuring party known as the delvers of the deep receives word of strange fires erupting from the ruins of khaz ankor, an ancient dwarven stronghold buried beneath the sword mountains. local miners report that the fires burn without fuel and seem to move with purpose through the abandoned halls.\n\nhired by the waterdeep city watch to investigate these supernatural occurrences, our heroes delve into the forgotten depths to uncover the source of the magical flames.\n\n## key events\n\n- **opening investigation**: the party questions local miners and discovers the pattern of the fires\n- **descent into khaz ankor**: first exploration of the dwarven ruins reveals intricate stonework and ancient traps\n- **fire elemental encounter**: the party faces their first fire elemental in the great hall\n- **the forge discovery**: evidence points to the ancient forge as the source of the disturbance\n- **cliffhanger ending**: a mysterious figure is glimpsed in the depths as the session ends\n\n## characters\n\n### player characters\n\n- **kael ironwright** (alice) - human fighter, former city guard seeking adventure and purpose\n- **lyra moonwhisper** (bob) - elf wizard specializing in evocation magic and ancient history\n- **thorin stonebeard** (charlie) - dwarf cleric of moradin, drawn to restore his people's lost heritage\n- **zara lightfinger** (diana) - halfling rogue and former street thief with a talent for finding trouble\n\n### npcs introduced\n\n- **captain marcus thorne** - waterdeep city watch captain who hired the party\n- **old henrik** - grizzled miner who first reported the fires\n- **balin goldbeard** - dwarven historian providing background on khaz ankor\n\n## locations explored\n\n### the outer halls\nancient dwarven corridors with masterwork stonework, though partially collapsed from age and the mysterious fires. intricate geometric patterns carved into the walls tell stories of dwarven craftsmanship.\n\n### the great hall\na vast ceremonial chamber with towering stone pillars. this is where the party encountered their first fire elemental, leading to an intense battle that tested their teamwork.\n\n### the forge approach\npassages leading deeper into the mountain, growing warmer as the party approaches the heart of khaz ankor. the stonework here shows signs of more recent disturbance.\n\n## combat encounters\n\n### fire elemental (cr 5)\n**location**: great hall  \n**tactics**: the elemental used the pillars for cover and attempted to corner individual party members  \n**key moments**: lyra's *frost bolt* proved especially effective, while thorin's healing kept the party in the fight\n\n## discoveries & lore\n\n- **ancient dwarven script**: thorin translated inscriptions revealing khaz ankor was once famous for its magical forges\n- **fire-touched stone**: several stones throughout the ruins bear scorch marks that radiate heat but don't burn\n- **the forge legend**: local lore speaks of a legendary forge that could bind elemental fire into magical items\n\n## notable moments\n\n- zara's failed attempt to disarm a pressure plate trap led to a comedic sequence of tumbling stones\n- kael's intimidation of the fire elemental surprised everyone at the table\n- lyra's encyclopedic knowledge of dwarven history proved invaluable for understanding the ruins\n- thorin's emotional reaction to seeing the desecrated halls of his ancestors added depth to the story\n\n## house rules & mechanics\n\n- **inspiration**: given for excellent roleplay and creative problem-solving\n- **flanking**: used optional flanking rules for tactical combat\n- **environmental hazards**: heat exhaustion saves required in areas close to fire elemental activity\n\n## next session preview\n\nthe party has discovered that the fires originate from deeper within khaz ankor, likely from the legendary forge itself. with a mysterious figure spotted in the depths and growing elemental activity, the delvers must decide whether to press on or retreat to gather more information.\n\n## media links\n\n- [audio version](https://example.com/audio/delvers-ep1) - full 4 hour session\n- [video highlights](https://example.com/video/delvers-ep1-highlights) - 30 minute edited highlights\n- [session notes](https://example.com/notes/delvers-ep1) - detailed session notes and character sheets"
+    },
+    {
+      "title": "Star Wars Campaigns",
+      "slug": "star-wars",
+      "date": "2024-01-03",
+      "description": "Hub page for all Star Wars RPG campaigns set in a galaxy far, far away.",
+      "series": "Star Wars Collection",
+      "episode": null,
+      "systems": [
+        {
+          "canonical": "sw5e",
+          "display": "Star Wars 5e"
+        },
+        {
+          "canonical": "swrpg",
+          "display": "Star Wars RPG (FFG)"
+        }
+      ],
+      "setting": {
+        "canonical": "star_wars",
+        "display": "Star Wars"
+      },
+      "era": "Various",
+      "players": [],
+      "duration": "",
+      "media": [],
+      "tags": [
+        "star wars",
+        "sci-fi",
+        "space opera",
+        "hub"
+      ],
+      "genres": [
+        {
+          "canonical": "scifi",
+          "display": "Science Fiction"
+        },
+        {
+          "canonical": "space_opera",
+          "display": "Space Opera"
+        }
+      ],
+      "content_warnings": [],
+      "languages": [
+        "English"
+      ],
+      "aliases": [
+        "galaxy far far away",
+        "sw"
+      ],
+      "content_excerpt": "Star Wars Campaigns\nWelcome to our Star Wars roleplaying campaigns! Set in the beloved galaxy far, far away, these adventures span multiple eras and game systems, from the Clone Wars to the sequel...",
+      "file_path": "content/actual-plays/star-wars/index.md",
+      "search_text": "star wars campaigns hub page for all star wars rpg campaigns set in a galaxy far, far away. star wars collection star wars sci-fi space opera hub star wars 5e star wars rpg (ffg) star wars \n# star wars campaigns\n\nwelcome to our **star wars** roleplaying campaigns! set in the beloved galaxy far, far away, these adventures span multiple eras and game systems, from the clone wars to the sequel trilogy and beyond.\n\nwhether using the d20-based sw5e system or fantasy flight games' narrative dice system, our campaigns capture the epic scope, moral complexity, and adventurous spirit that makes star wars so compelling.\n\n## active campaigns\n\n### smuggler's run\na crew of independent operators navigates the dangerous politics and profitable opportunities of the outer rim during the galactic civil war era.\n\n**current story arc:** imperial entanglements on tatooine  \n**system:** sw5e (star wars 5th edition)  \n**era:** galactic civil war (0-4 aby)  \n**players:** kira (human scoundrel), zeph (twi'lek pilot), jorik (human guardian), b4-nk (droid scholar)\n\n## campaign eras\n\n### old republic era (25,000 - 1,000 bby)\nthe ancient history of the galaxy, featuring the rise of the jedi and sith orders, the mandalorian wars, and the old sith wars.\n\n### rise of the empire era (1,000 - 0 bby)\nthe final years of the galactic republic, the clone wars, and the rise of the galactic empire culminating in the events of episodes i-iii.\n\n### rebellion era (0 - 5 aby) ⭐ *current focus*\nthe galactic civil war period covering the original trilogy timeline, featuring the struggle between the rebel alliance and the galactic empire.\n\n### new republic era (5 - 25 aby)\nthe aftermath of the empire's defeat, the establishment of the new republic, and the rise of new threats in the galaxy.\n\n### new jedi order era (25+ aby)\nthe sequel trilogy period and beyond, featuring the first order, the resistance, and the restoration of the jedi.\n\n## the star wars galaxy\n\n### core worlds\nthe wealthy, cosmopolitan heart of galactic civilization including coruscant, corellia, and kuat.\n\n### mid rim\nstable, developed worlds that serve as industrial centers and trade hubs throughout the galaxy.\n\n### outer rim territories\nthe frontier regions where our campaigns typically focus - lawless, dangerous, but full of opportunity for those brave enough to seek it.\n\n### wild space & unknown regions\nlargely unexplored areas beyond the galaxy's edge, home to ancient secrets and alien civilizations.\n\n## episodes\n\n- [episode 1: tatooine gambit](smugglers-run-ep01.md) - the crew takes on a seemingly simple cargo job that turns complicated fast\n\n## force traditions\n\n### the jedi order\nguardians of peace and justice, wielding the light side of the force with wisdom and restraint.\n\n### the sith\ndark side users who embrace passion and power, seeking to rule through strength and fear.\n\n### independent force users\nvarious traditions and individuals who walk their own path with the force, outside the jedi-sith conflict.\n\n## game systems\n\n### sw5e (star wars 5th edition)\na comprehensive adaptation of d&d 5th edition mechanics to the star wars universe, featuring:\n- classes like scoundrel, guardian, sentinel, and consular\n- expanded rules for space combat and starship operations  \n- force powers adapted from d&d spell mechanics\n- equipment and technology appropriate to the star wars setting\n\n### star wars rpg (fantasy flight games)\nthe narrative dice system focusing on collaborative storytelling:\n- advantage/threat mechanics encouraging creative problem-solving\n- obligation, duty, and morality systems for character motivation\n- detailed starship and vehicle combat\n- three core games: edge of the empire, age of rebellion, force and destiny\n\n## resources\n\n- [sw5e website](https://sw5e.com/) - complete rules and character builder for sw5e\n- [fantasy flight games](https://www.fantasyflightgames.com/en/products/#/universe/star-wars) - official ffg star wars rpg products  \n- [wookieepedia](https://starwars.fandom.com/) - comprehensive star wars lore database\n- [star wars databank](https://www.starwars.com/databank) - official canon reference\n\n## themes & tone\n\nour star wars campaigns emphasize:\n- **heroic adventure** - players are heroes making a difference in galactic events\n- **moral complexity** - exploring the gray areas between light and dark, empire and rebellion\n- **epic scope** - adventures that feel like they belong in the star wars saga\n- **character growth** - personal journeys of discovery, redemption, and purpose\n- **diverse perspectives** - stories from across the galaxy's many species and cultures"
+    },
+    {
+      "title": "Golarion Adventures",
+      "slug": "golarion",
+      "date": "2024-01-02",
+      "description": "Hub page for all Pathfinder campaigns set in the world of Golarion.",
+      "series": "Golarion Collection",
+      "episode": null,
+      "systems": [
+        {
+          "canonical": "pathfinder",
+          "display": "Pathfinder"
+        }
+      ],
+      "setting": {
+        "canonical": "golarion",
+        "display": "Golarion"
+      },
+      "era": "Age of Lost Omens",
+      "players": [],
+      "duration": "",
+      "media": [],
+      "tags": [
+        "pathfinder",
+        "golarion",
+        "fantasy",
+        "hub"
+      ],
+      "genres": [
+        {
+          "canonical": "fantasy",
+          "display": "Fantasy"
+        }
+      ],
+      "content_warnings": [],
+      "languages": [
+        "English"
+      ],
+      "aliases": [
+        "pathfinder world",
+        "pf"
+      ],
+      "content_excerpt": "Golarion Adventures\nWelcome to our Pathfinder campaigns set in Golarion, the official campaign setting for the Pathfinder Roleplaying Game. This diverse world offers everything from the cosmopolitan...",
+      "file_path": "content/actual-plays/golarion/index.md",
+      "search_text": "golarion adventures hub page for all pathfinder campaigns set in the world of golarion. golarion collection pathfinder golarion fantasy hub pathfinder golarion \n# golarion adventures\n\nwelcome to our pathfinder campaigns set in **golarion**, the official campaign setting for the pathfinder roleplaying game. this diverse world offers everything from the cosmopolitan nation of absalom to the demon-haunted worldwound, providing endless opportunities for adventure.\n\n## active campaigns\n\n### ruins & relics expedition\nan archaeological expedition turned adventure as the party uncovers ancient secrets buried in golarion's many ruins.\n\n**current story arc:** the thassilonian vault discovery  \n**system:** pathfinder 1st edition  \n**players:** valdris (human wizard), seelah (human paladin), merisiel (elf rogue), ezren (human fighter)\n\n## campaign setting\n\n**golarion** is a world of high fantasy, featuring diverse cultures, ancient mysteries, and powerful magic. the setting is known for its:\n\n### major regions\n\n- **absalom** - the city at the center of the world\n- **varisia** - land of ancient thassilonian ruins and frontier settlements\n- **cheliax** - a devil-bound empire of law and tyranny  \n- **ustalav** - a gothic nation of haunted moors and undead\n- **the river kingdoms** - lawless lands of bandit kings and mercenary companies\n- **osirion** - a desert nation of pharaohs and ancient pyramids\n\n### historical ages\n\n- **age of creation** - the birth of the world and first civilizations\n- **age of serpents** - rule of the serpentfolk empire\n- **age of legend** - rise and fall of great empires like thassilon\n- **age of darkness** - the meteorite impact and earthfall\n- **age of anguish** - recovery from the great catastrophe  \n- **age of destiny** - classical antiquity and the rise of modern nations\n- **age of enthronement** - the current era of mortal kingdoms\n- **age of lost omens** - the recent disappearance of prophecy\n\n## episodes\n\n- [episode 1: ruins of the vault](golarion-ruins-ep01.md) - the expedition discovers a hidden thassilonian vault beneath varisia\n\n## pathfinder resources\n\n- [pathfinder wiki](https://pathfinderwiki.com/)\n- [archives of nethys](https://aonprd.com/) - complete pathfinder 1e rules reference\n- [paizo store](https://paizo.com/) - official pathfinder products and adventures\n- [golarion gazetteer](https://paizo.com/products/btpy8727) - comprehensive world guide\n\n## notable features\n\n### magic & technology\ngolarion blends high fantasy with emerging technology, featuring everything from traditional wizardry to early firearms and clockwork constructs.\n\n### diverse cultures\nthe world draws inspiration from many real-world cultures while maintaining its own unique identity, creating rich opportunities for roleplay and exploration.\n\n### ancient mysteries\nruins of lost civilizations dot the landscape, each holding secrets, treasures, and dangers for bold adventurers to discover."
+    },
+    {
+      "title": "Episode Title",
+      "slug": "episode-slug",
+      "date": "2024-01-01",
+      "description": "Brief description of the episode content and key events.",
+      "series": "Series Name",
+      "episode": 1,
+      "systems": [
+        {
+          "canonical": "dandd-5e",
+          "display": "D&D 5e"
+        }
+      ],
+      "setting": {
+        "canonical": "forgotten_realms",
+        "display": "Forgotten Realms"
+      },
+      "era": "Current Day",
+      "players": [
+        "Player One",
+        "Player Two",
+        "Player Three"
+      ],
+      "duration": "3h 45m",
+      "media": [
+        "audio",
+        "video"
+      ],
+      "tags": [
+        "adventure",
+        "combat",
+        "roleplay"
+      ],
+      "genres": [
+        {
+          "canonical": "adventure",
+          "display": "Adventure"
+        }
+      ],
+      "content_warnings": [],
+      "languages": [
+        "English"
+      ],
+      "aliases": [],
+      "content_excerpt": "Episode Summary\nBrief summary of what happens in this episode.\nKey Events\nImportant event 1\nImportant event 2  \nImportant event 3\nCharacters\nPlayer Characters\nCharacter Name (Player Name) - Brief...",
+      "file_path": "content/actual-plays/_episode-template.md",
+      "search_text": "episode title brief description of the episode content and key events. series name adventure combat roleplay d&d 5e forgotten realms \n# episode summary\n\nbrief summary of what happens in this episode.\n\n## key events\n\n- important event 1\n- important event 2  \n- important event 3\n\n## characters\n\n### player characters\n- **character name** (player name) - brief description\n- **character name** (player name) - brief description\n\n### npcs\n- **npc name** - role and significance\n\n## locations\n\n- **location name** - description of where events take place\n\n## notes\n\nany additional notes, house rules, or interesting moments from the session.\n\n## media links\n\n- [audio](link-to-audio)\n- [video](link-to-video)\n- [transcript](link-to-transcript)"
+    },
+    {
+      "title": "Forgotten Realms Campaigns",
+      "slug": "forgotten-realms",
+      "date": "2024-01-01",
+      "description": "Hub page for all Forgotten Realms actual play campaigns and episodes.",
+      "series": "Forgotten Realms Collection",
+      "episode": null,
+      "systems": [
+        {
+          "canonical": "dandd-5e",
+          "display": "D&D 5e"
+        }
+      ],
+      "setting": {
+        "canonical": "forgotten_realms",
+        "display": "Forgotten Realms"
+      },
+      "era": "Various",
+      "players": [],
+      "duration": "",
+      "media": [],
+      "tags": [
+        "forgotten realms",
+        "d&d",
+        "fantasy",
+        "hub"
+      ],
+      "genres": [
+        {
+          "canonical": "fantasy",
+          "display": "Fantasy"
+        }
+      ],
+      "content_warnings": [],
+      "languages": [
+        "English"
+      ],
+      "aliases": [
+        "faerun",
+        "fr"
+      ],
+      "content_excerpt": "Forgotten Realms Campaigns\nWelcome to our collection of actual play campaigns set in the Forgotten Realms, the iconic campaign setting of Dungeons & Dragons....",
+      "file_path": "content/actual-plays/forgotten-realms/index.md",
+      "search_text": "forgotten realms campaigns hub page for all forgotten realms actual play campaigns and episodes. forgotten realms collection forgotten realms d&d fantasy hub d&d 5e forgotten realms \n# forgotten realms campaigns\n\nwelcome to our collection of actual play campaigns set in the forgotten realms, the iconic campaign setting of dungeons & dragons. from the bustling streets of waterdeep to the dangerous depths of the underdark, our adventuring parties explore the rich tapestry of faerûn.\n\n## active campaigns\n\n### the delvers of the deep\na group of adventurers exploring ancient ruins and forgotten dungeons across the sword coast.\n\n**current story arc:** the burnt halls investigation  \n**system:** d&d 5th edition  \n**players:** kael (human fighter), lyra (elf wizard), thorin (dwarf cleric), zara (halfling rogue)\n\n## campaign setting\n\nthe **forgotten realms** is a campaign setting for the dungeons & dragons fantasy role-playing game. it is a detailed, living world with a rich history spanning thousands of years. key locations include:\n\n- **waterdeep** - the city of splendors, a major trading hub\n- **baldur's gate** - a city of intrigue and adventure\n- **neverwinter** - the jewel of the north\n- **the underdark** - a vast network of caverns and tunnels\n- **cormyr** - a kingdom of knights and nobility\n\n## episodes\n\n- [episode 1: the burnt halls](fr-delve-ep1-burnt-halls.md) - the party investigates mysterious fires in an ancient dwarven stronghold\n\n## resources\n\n- [forgotten realms wiki](https://forgottenrealms.fandom.com/)\n- [d&d beyond: forgotten realms](https://www.dndbeyond.com/sources/basic-rules)\n- [sword coast adventurer's guide](https://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide)"
+    }
+  ]
+}

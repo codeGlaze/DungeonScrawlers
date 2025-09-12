@@ -1,0 +1,59 @@
+{
+  "systems": {
+    "dnd5e": { "canonical": "dnd5e", "display": "D&D 5th Edition" },
+    "d&d5e": { "canonical": "dnd5e", "display": "D&D 5th Edition" },
+    "dnd 5e": { "canonical": "dnd5e", "display": "D&D 5th Edition" },
+    "dungeons & dragons 5e": { "canonical": "dnd5e", "display": "D&D 5th Edition" },
+    "pathfinder": { "canonical": "pathfinder", "display": "Pathfinder" },
+    "pathfinder 1e": { "canonical": "pathfinder", "display": "Pathfinder" },
+    "pf1e": { "canonical": "pathfinder", "display": "Pathfinder" },
+    "pathfinder2e": { "canonical": "pathfinder2e", "display": "Pathfinder 2nd Edition" },
+    "pathfinder 2e": { "canonical": "pathfinder2e", "display": "Pathfinder 2nd Edition" },
+    "pf2e": { "canonical": "pathfinder2e", "display": "Pathfinder 2nd Edition" },
+    "sw5e": { "canonical": "sw5e", "display": "Star Wars 5e" },
+    "star wars 5e": { "canonical": "sw5e", "display": "Star Wars 5e" },
+    "swrpg": { "canonical": "swrpg", "display": "Star Wars RPG (FFG)" },
+    "star wars rpg": { "canonical": "swrpg", "display": "Star Wars RPG (FFG)" },
+    "genesys": { "canonical": "genesys", "display": "Genesys" },
+    "savage worlds": { "canonical": "savage_worlds", "display": "Savage Worlds" }
+  },
+  "genres": {
+    "fantasy": { "canonical": "fantasy", "display": "Fantasy" },
+    "sci-fi": { "canonical": "scifi", "display": "Science Fiction" },
+    "science fiction": { "canonical": "scifi", "display": "Science Fiction" },
+    "scifi": { "canonical": "scifi", "display": "Science Fiction" },
+    "horror": { "canonical": "horror", "display": "Horror" },
+    "mystery": { "canonical": "mystery", "display": "Mystery" },
+    "adventure": { "canonical": "adventure", "display": "Adventure" },
+    "urban fantasy": { "canonical": "urban_fantasy", "display": "Urban Fantasy" },
+    "steampunk": { "canonical": "steampunk", "display": "Steampunk" },
+    "cyberpunk": { "canonical": "cyberpunk", "display": "Cyberpunk" },
+    "space opera": { "canonical": "space_opera", "display": "Space Opera" }
+  },
+  "settings": {
+    "forgotten realms": { "canonical": "forgotten_realms", "display": "Forgotten Realms" },
+    "faerun": { "canonical": "forgotten_realms", "display": "Forgotten Realms" },
+    "golarion": { "canonical": "golarion", "display": "Golarion" },
+    "pathfinder": { "canonical": "golarion", "display": "Golarion" },
+    "star wars": { "canonical": "star_wars", "display": "Star Wars" },
+    "galaxy far far away": { "canonical": "star_wars", "display": "Star Wars" },
+    "eberron": { "canonical": "eberron", "display": "Eberron" },
+    "ravenloft": { "canonical": "ravenloft", "display": "Ravenloft" },
+    "spelljammer": { "canonical": "spelljammer", "display": "Spelljammer" },
+    "planescape": { "canonical": "planescape", "display": "Planescape" },
+    "homebrew": { "canonical": "homebrew", "display": "Homebrew Setting" },
+    "custom": { "canonical": "homebrew", "display": "Homebrew Setting" }
+  },
+  "age_ratings": {
+    "all ages": { "canonical": "all_ages", "display": "All Ages" },
+    "family friendly": { "canonical": "all_ages", "display": "All Ages" },
+    "teen": { "canonical": "teen", "display": "Teen (13+)" },
+    "teen+": { "canonical": "teen", "display": "Teen (13+)" },
+    "13+": { "canonical": "teen", "display": "Teen (13+)" },
+    "mature": { "canonical": "mature", "display": "Mature (17+)" },
+    "mature+": { "canonical": "mature", "display": "Mature (17+)" },
+    "17+": { "canonical": "mature", "display": "Mature (17+)" },
+    "adult": { "canonical": "adult", "display": "Adult (18+)" },
+    "18+": { "canonical": "adult", "display": "Adult (18+)" }
+  }
+}
